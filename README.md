@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/aclowery/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aclowery/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -31,7 +33,7 @@ lib_summary()
 #>                                                                   Library
 #> 1                                      C:/Program Files/R/R-4.3.0/library
 #> 2                                                            C:/RPackages
-#> 3 C:/Users/alowery/AppData/Local/Temp/RtmpyuOjc6/temp_libpath4be81daa4a91
+#> 3 C:/Users/alowery/AppData/Local/Temp/RtmpyuOjc6/temp_libpath4be8783263d6
 #>   n_packages
 #> 1         30
 #> 2        238
@@ -42,9 +44,9 @@ lib_summary(sizes = TRUE)
 #>                                                                   Library
 #> 1                                      C:/Program Files/R/R-4.3.0/library
 #> 2                                                            C:/RPackages
-#> 3 C:/Users/alowery/AppData/Local/Temp/RtmpyuOjc6/temp_libpath4be81daa4a91
+#> 3 C:/Users/alowery/AppData/Local/Temp/RtmpyuOjc6/temp_libpath4be8783263d6
 #>   n_packages  lib_size
 #> 1         30  68685145
 #> 2        238 675221378
-#> 3          1     12768
+#> 3          1     12769
 ```
